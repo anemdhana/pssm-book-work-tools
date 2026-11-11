@@ -149,6 +149,18 @@ a:hover { color: var(--gold); }
   color: var(--ink-soft);
 }
 
+.byline {
+  display: block;
+  margin: 0 0 0.35rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+}
+
+.post-meta .byline { margin-bottom: 0.2rem; }
+
 .post-list h2 {
   margin: 0 0 0.4rem;
   font-size: 1.45rem;

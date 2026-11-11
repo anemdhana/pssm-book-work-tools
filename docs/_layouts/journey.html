@@ -4,9 +4,14 @@ layout: default
 <article class="post"{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
   <p class="kicker"><a href="{{ '/' | relative_url }}">Transformation Journeys</a></p>
   <h1>{{ page.title }}</h1>
-  {% if page.date %}
+  {% if page.author or page.date %}
   <p class="post-meta">
+    {% if page.author %}
+    <span class="byline">{{ page.author }}{% if page.profession %} · {{ page.profession }}{% endif %}{% if page.practice %} · {{ page.practice }}{% endif %}</span>
+    {% endif %}
+    {% if page.date %}
     <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>
+    {% endif %}
   </p>
   {% endif %}
   <div class="prose">
