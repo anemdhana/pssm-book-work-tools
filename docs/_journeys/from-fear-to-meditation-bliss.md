@@ -6,7 +6,33 @@ author: Dhana Kumar
 location: Chennai
 profession: IT
 practice: More than 5 years in meditation
+excerpt: పత్రీజీ గారికి జన్మదిన శుభాకాంక్షలు, ఆ తర్వాత భయం నుంచి ధ్యానానందం వైపు నా ప్రయాణం.
 ---
+
+<section class="wish" lang="te">
+  <p class="wish-kicker">జన్మదిన కృతజ్ఞత</p>
+  <h2>శ్వాసే గురువు</h2>
+  <p class="wish-lead"><strong>నా ప్రియమైన గురువుగారు బ్రహ్మర్షి పితామహ పత్రీజీ గారికి జన్మదిన శుభాకాంక్షలు.</strong></p>
+  <p>పత్రీజీ గారిని తలచుకున్నప్పుడు నాకు కేవలం ఒక గురువుగానే కాకుండా, ఎంతోకాలంగా పరిచయమున్న ఆత్మీయ మిత్రుడిలా అనిపిస్తారు. ఆయన దగ్గర మనసులోని భావాలను ఎలాంటి సంకోచం లేకుండా, ఎంతో స్వేచ్ఛగా వ్యక్తపరచుకోవచ్చనే సాన్నిహిత్యం కలుగుతుంది. ఆ ఆత్మీయతే ఆయన కోసం ఏదైనా చేయాలనే భావనను నా హృదయంలో కలిగిస్తుంది.</p>
+  <p>నా జీవిత ప్రయాణంలో పత్రీజీ గారి పరిచయం లేకపోయి ఉంటే, మరింత దుఃఖంతో, జీవితానికి అర్థం తెలియని స్థితిలోనే కాలం గడిపేవాడినేమో అనిపిస్తుంది. ధ్యానం పరిచయమైన తర్వాత జీవితం ఒక్కసారిగా పూర్తిగా మారిపోయిందని చెప్పను. ఇంకా ప్రయాణం కొనసాగుతూనే ఉంది. కానీ మునుపటిలా దిగజారిపోయిన స్థితిలో లేను. జీవితంలో ఏం జరిగినా, ధ్యానంలో లభించే ప్రాణశక్తి మనల్ని ముందుకు నడిపిస్తుందనే నమ్మకం కలిగింది.</p>
+  <p>పత్రీజీ గారు అందించిన ధ్యానజ్ఞానం వల్ల మరింత వివేకంతో జీవించగలననే విశ్వాసం పెరిగింది. లేకపోతే పాత అలవాట్లలో చిక్కుకుని, ఇతరులపై ఆధారపడుతూ జీవితాన్ని గడిపేవాడినేమో. ఇప్పుడు నా జీవితాన్ని నేను మరింత స్పష్టంగా చూసుకునే దిశగా అడుగులు వేస్తున్నాను.</p>
+  <p>ఈ మార్గాన్ని చూపించిన బ్రహ్మర్షి పితామహ పత్రీజీ గారికి నా హృదయపూర్వక కృతజ్ఞతలు. ఆయన సంకల్పాలను మా సంకల్పాలుగా భావిస్తూ, ఆ దిశగా నా ప్రయాణాన్ని కొనసాగించాలని కోరుకుంటున్నాను.</p>
+  <p class="wish-close"><strong>జన్మదిన శుభాకాంక్షలు, పత్రీజీ సార్!</strong></p>
+  <p class="wish-close"><strong>ధన్యవాదాలు… ధన్యవాదాలు… ధన్యవాదాలు, పత్రీజీ సార్!</strong></p>
+  <div class="wish-en" lang="en">
+    <p class="wish-kicker">English</p>
+    <h3>Your Breath Is Your Guru</h3>
+    <p class="wish-lead"><strong>Birthday wishes to my beloved Guru, Brahmarshi Pitamaha Patriji.</strong></p>
+    <p>When I think of Patriji, I feel his presence not only as a Guru, but also as a dear friend I have known for a very long time. There is a sense of closeness that allows me to express what is in my heart freely, without hesitation. That affection inspires in me a heartfelt wish to do something for him.</p>
+    <p>Sometimes I feel that, without Patriji's introduction into my life, I might have continued my journey with much more sorrow and without a clear sense of meaning. I would not say that everything changed completely the moment I discovered meditation. My journey is still unfolding. But I am no longer in the same deeply troubled state as before. Whatever happens in life, I have developed faith that the prana shakti received in meditation can help carry us forward.</p>
+    <p>The knowledge of meditation shared by Patriji has given me confidence that I can live with greater wisdom and discernment. Otherwise, perhaps I would have remained caught in old habits, depending on others to get through life. Now I am taking steps toward seeing and understanding my own life more clearly.</p>
+    <p>My heartfelt gratitude goes to Brahmarshi Pitamaha Patriji for showing me this path. I wish to embrace his aspirations as our own and continue my journey in that spirit.</p>
+    <p class="wish-close"><strong>Happy Birthday, Patriji Sir!</strong></p>
+    <p class="wish-close"><strong>Thank you… thank you… thank you, Patriji Sir!</strong></p>
+  </div>
+</section>
+
+## నా ప్రయాణం
 
 నా పేరు ధన కుమార్ (Dhana Kumar). నేను చెన్నైకి చెందినవాడిని. ఐటీ రంగంలో పని చేస్తున్నాను. ధ్యాన సాధనలో నాకు ఐదేళ్లకు పైగా అనుభవం ఉంది.
 
