@@ -7,7 +7,7 @@ layout: default
   {% if page.author or page.date %}
   <p class="post-meta">
     {% if page.author %}
-    <span class="byline">{{ page.author }}{% if page.profession %} · {{ page.profession }}{% endif %}{% if page.practice %} · {{ page.practice }}{% endif %}</span>
+    <span class="byline">{{ page.author }}{% if page.location %} · {{ page.location }}{% endif %}{% if page.profession %} · {{ page.profession }}{% endif %}{% if page.practice %} · {{ page.practice }}{% endif %}</span>
     {% endif %}
     {% if page.date %}
     <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>

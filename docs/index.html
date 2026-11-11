@@ -19,7 +19,7 @@ title: Transformation Journeys
         {% endif %}
         <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
         {% if item.author %}
-        <p class="byline">{{ item.author }}{% if item.profession %} · {{ item.profession }}{% endif %}{% if item.practice %} · {{ item.practice }}{% endif %}</p>
+        <p class="byline">{{ item.author }}{% if item.location %} · {{ item.location }}{% endif %}{% if item.profession %} · {{ item.profession }}{% endif %}{% if item.practice %} · {{ item.practice }}{% endif %}</p>
         {% endif %}
         {% assign lead = item.excerpt | strip_html | strip | truncate: 220 %}
         {% if lead != "" %}
