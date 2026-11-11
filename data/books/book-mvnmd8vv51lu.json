@@ -1,0 +1,21 @@
+{
+  "id": "book-mvnmd8vv51lu",
+  "title": "Anapanasati",
+  "sourceFile": "anapanasati.pdf",
+  "storedFile": "book-mvnmd8vv51lu-anapanasati.pdf",
+  "pageCount": 102,
+  "splitBy": "pages",
+  "importedAt": "2026-10-25T09:22:34.171Z",
+  "updatedAt": "2026-10-25T09:22:34.171Z",
+  "sections": [
+    {
+      "id": "sec-mvnmd8vw8hbr",
+      "order": 1,
+      "title": "Full pages",
+      "pageStart": 1,
+      "paragraphs": [
+        "This book was imported page by page. Use Pages to edit it."
+      ]
+    }
+  ]
+}

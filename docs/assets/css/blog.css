@@ -1,0 +1,249 @@
+:root {
+  --ink: #1b2a6b;
+  --ink-soft: #3d4a73;
+  --gold: #b8860b;
+  --paper: #f7f4ee;
+  --card: #fffdf8;
+  --line: #e6dcc8;
+  --serif: "Noto Serif Telugu", Georgia, serif;
+  --sans: "Noto Sans", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top, #fffaf0 0%, var(--paper) 42%);
+  color: #241f1a;
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.85;
+}
+
+a { color: var(--ink); }
+a:hover { color: var(--gold); }
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 0.75rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  color: inherit;
+  min-width: 0;
+}
+
+.brand img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex: none;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.brand-text strong {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.brand-text em {
+  font-style: italic;
+  font-size: 0.92rem;
+  color: var(--gold);
+}
+
+.site-nav a {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.15rem;
+}
+
+.site-main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+}
+
+.kicker {
+  margin: 0 0 0.35rem;
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.kicker a { color: inherit; text-decoration: none; }
+.kicker a:hover { text-decoration: underline; }
+
+.blog-home h1,
+.post h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.empty {
+  margin-top: 2rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.post-list {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
+.post-list li + li {
+  margin-top: 0.85rem;
+}
+
+.post-list article {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.15rem 1.25rem 1.2rem;
+}
+
+.post-list time,
+.post-meta {
+  display: block;
+  margin: 0 0 0.35rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+
+.post-list h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.post-list h2 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.post-list h2 a:hover { text-decoration: underline; }
+
+.post-list p {
+  margin: 0;
+  color: #3a342c;
+  font-size: 1.05rem;
+}
+
+.post-meta { margin-bottom: 1.5rem; }
+
+.prose > :first-child { margin-top: 0; }
+
+.prose p,
+.prose ul,
+.prose ol,
+.prose blockquote,
+.prose pre {
+  margin: 0 0 1.1rem;
+}
+
+.prose h2,
+.prose h3 {
+  margin: 1.8rem 0 0.55rem;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.prose h2 { font-size: 1.45rem; }
+.prose h3 { font-size: 1.2rem; }
+
+.prose ul,
+.prose ol { padding-left: 1.25rem; }
+
+.prose li + li { margin-top: 0.3rem; }
+
+.prose blockquote {
+  margin-left: 0;
+  padding: 0.15rem 0 0.15rem 1rem;
+  border-left: 3px solid var(--gold);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.prose a { text-underline-offset: 0.15em; }
+
+.prose code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.88em;
+  background: #f3ecdf;
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 1.5rem 1.25rem 2rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.site-footer img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.site-footer p { margin: 0; }
+
+@media (max-width: 640px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .brand-text strong { font-size: 0.86rem; }
+}

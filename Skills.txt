@@ -1,0 +1,11 @@
+Required Skills:
+
+
+Strong expertise in Core Java, Collections, Multithreading, and Design Patterns.
+Hands-on experience with Spring Boot, Spring Cloud, Spring Security, JPA/Hibernate.
+Strong knowledge of Microservices, REST APIs, API Gateway, Service Discovery, and Distributed Systems.
+Experience with Generative AI, Large Language Models (LLMs), LangChain, AI Agents, RAG, Prompt Engineering.
+Knowledge of AI services such as Azure OpenAI, OpenAI, AWS Bedrock, Google Vertex AI.
+Experience with databases like Oracle, PostgreSQL, MySQL, MongoDB.
+Hands-on experience with Docker, Kubernetes, Jenkins, Git, Maven/Gradle.
+Familiarity with cloud platforms (AWS/Azure/GCP) and DevOps practices.

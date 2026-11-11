@@ -1,0 +1,29 @@
+title: Pyramid Spiritual Societies Movement
+tagline: Be a light unto yourself
+description: Transformation Journeys
+lang: en
+
+# Project site: https://<owner>.github.io/pssm-book-work-tools/
+# Pages source: Deploy from a branch → /docs
+baseurl: "/pssm-book-work-tools"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+collections:
+  journeys:
+    output: true
+    sort_by: date
+    permalink: /transformation-journeys/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: journeys
+    values:
+      layout: journey
+
+exclude:
+  - README.md

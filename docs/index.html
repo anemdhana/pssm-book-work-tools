@@ -1,0 +1,30 @@
+---
+layout: default
+title: Transformation Journeys
+---
+<section class="blog-home">
+  <p class="kicker">Section</p>
+  <h1>Transformation Journeys</h1>
+
+  {% assign journeys = site.journeys | sort: "date" | reverse %}
+  {% if journeys.size == 0 %}
+  <p class="empty">Stories will appear here.</p>
+  {% else %}
+  <ol class="post-list">
+    {% for item in journeys %}
+    <li>
+      <article{% if item.lang %} lang="{{ item.lang }}"{% endif %}>
+        {% if item.date %}
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %B %Y" }}</time>
+        {% endif %}
+        <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+        {% assign lead = item.excerpt | strip_html | strip | truncate: 220 %}
+        {% if lead != "" %}
+        <p>{{ lead }}</p>
+        {% endif %}
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+</section>

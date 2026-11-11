@@ -1,0 +1,26 @@
+{
+  "name": "pssm-book-work-tools",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 3010",
+    "build": "next build",
+    "start": "next start -p 3010",
+    "sample-pdf": "node scripts/make-sample-pdf.mjs"
+  },
+  "dependencies": {
+    "docx": "^9.14.0",
+    "jszip": "^3.10.2",
+    "next": "15.5.28",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "unpdf": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "pdf-lib": "^1.17.1",
+    "typescript": "^5"
+  }
+}

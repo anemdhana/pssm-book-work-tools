@@ -1,0 +1,32 @@
+{
+  "id": "book-mvnjplrkozno",
+  "title": "Sample Book",
+  "sourceFile": "sample-book.pdf",
+  "storedFile": "book-mvnjplrkozno-sample-book.pdf",
+  "pageCount": 2,
+  "splitBy": "headings",
+  "importedAt": "2026-10-25T08:08:11.889Z",
+  "updatedAt": "2026-10-25T08:11:27.568Z",
+  "sections": [
+    {
+      "id": "sec-mvnjplrlxse2",
+      "order": 1,
+      "title": "Chapter One",
+      "pageStart": 1,
+      "paragraphs": [
+        "The river was quiet in the morning. Mist sat on the water and the boat waited.",
+        "A second paragraph follows after a pause. It stays with the same section until the next chapter."
+      ]
+    },
+    {
+      "id": "sec-mvnjplrlddgr",
+      "order": 2,
+      "title": "Chapter Two",
+      "pageStart": 2,
+      "paragraphs": [
+        "The lamp was small and steady. Its light reached the page and no farther.",
+        "She closed the book and listened."
+      ]
+    }
+  ]
+}

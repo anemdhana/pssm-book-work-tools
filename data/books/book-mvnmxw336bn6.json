@@ -1,0 +1,21 @@
+{
+  "id": "book-mvnmxw336bn6",
+  "title": "TNDMY-9-combined",
+  "sourceFile": "TNDMY-9-combined.pdf",
+  "storedFile": "book-mvnmxw336bn6-TNDMY-9-combined.pdf",
+  "pageCount": 2,
+  "splitBy": "pages",
+  "importedAt": "2026-10-25T09:38:37.359Z",
+  "updatedAt": "2026-10-25T09:38:37.359Z",
+  "sections": [
+    {
+      "id": "sec-mvnmxw34jsb6",
+      "order": 1,
+      "title": "Full pages",
+      "pageStart": 1,
+      "paragraphs": [
+        "This book was imported page by page. Use Pages to edit it."
+      ]
+    }
+  ]
+}

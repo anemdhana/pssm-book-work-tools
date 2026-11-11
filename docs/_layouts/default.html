@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+  <link rel="icon" href="{{ '/assets/pssm-logo.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&family=Noto+Serif+Telugu:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/pssm-logo.png' | relative_url }}" alt="" width="64" height="64">
+      <span class="brand-text">
+        <strong>Pyramid Spiritual Societies Movement</strong>
+        <em>{{ site.tagline }}</em>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Transformation Journeys</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <img src="{{ '/assets/pssm-logo.png' | relative_url }}" alt="" width="40" height="40">
+    <p>{{ site.tagline }}</p>
+  </footer>
+</body>
+</html>

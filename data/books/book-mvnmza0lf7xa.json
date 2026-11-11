@@ -1,0 +1,21 @@
+{
+  "id": "book-mvnmza0lf7xa",
+  "title": "Accounting Voucher Display",
+  "sourceFile": "dhana kumar anem-simple_one_s.pdf",
+  "storedFile": "book-mvnmza0lf7xa-dhana kumar anem-simple_one_s.pdf",
+  "pageCount": 1,
+  "splitBy": "pages",
+  "importedAt": "2026-10-25T09:39:42.070Z",
+  "updatedAt": "2026-10-25T09:39:42.070Z",
+  "sections": [
+    {
+      "id": "sec-mvnmza0m9eqk",
+      "order": 1,
+      "title": "Full pages",
+      "pageStart": 1,
+      "paragraphs": [
+        "This book was imported page by page. Use Pages to edit it."
+      ]
+    }
+  ]
+}
