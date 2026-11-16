@@ -1,33 +1,14 @@
 ---
 layout: default
-title: Transformation Journeys
+title: Pyramid Spiritual Societies Movement
 ---
 <section class="blog-home">
-  <p class="kicker">Section</p>
-  <h1>Transformation Journeys</h1>
-
-  {% assign journeys = site.journeys | sort: "date" | reverse %}
-  {% if journeys.size == 0 %}
-  <p class="empty">Stories will appear here.</p>
-  {% else %}
-  <ol class="post-list">
-    {% for item in journeys %}
-    <li>
-      <article{% if item.lang %} lang="{{ item.lang }}"{% endif %}>
-        {% if item.date %}
-        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %B %Y" }}</time>
-        {% endif %}
-        <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
-        {% if item.author %}
-        <p class="byline">{{ item.author }}{% if item.location %} · {{ item.location }}{% endif %}{% if item.profession %} · {{ item.profession }}{% endif %}{% if item.practice %} · {{ item.practice }}{% endif %}</p>
-        {% endif %}
-        {% assign lead = item.excerpt | strip_html | strip | truncate: 220 %}
-        {% if lead != "" %}
-        <p>{{ lead }}</p>
-        {% endif %}
-      </article>
-    </li>
-    {% endfor %}
-  </ol>
-  {% endif %}
+  <p class="kicker">Welcome</p>
+  <h1>Pyramid Spiritual Societies Movement</h1>
+  <p>Be a light unto yourself. Explore transformation journeys, knowledge sharing, and events.</p>
+  <ul class="post-list" style="list-style: none; padding: 0;">
+    <li><a href="{{ '/transformation-journeys/' | relative_url }}">→ Transformation Journeys</a></li>
+    <li><a href="{{ '/knowledge-sharing/' | relative_url }}">→ Knowledge Sharing</a></li>
+    <li><a href="{{ '/events/' | relative_url }}">→ Events</a></li>
+  </ul>
 </section>
