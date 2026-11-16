@@ -306,12 +306,12 @@ a:hover { color: var(--gold); }
   border-radius: 4px;
 }
 
-/* Spiritual framed image */
+/* Spiritual framed image — slightly larger than medium */
 .spiritual-image-frame {
   float: right;
   margin: 0 0 1.5rem 1.5rem;
-  max-width: 280px;
-  width: 42%;
+  max-width: 340px;
+  width: 48%;
   background: linear-gradient(145deg, #fffaf0, #f7f4ee);
   border: 3px solid var(--gold);
   border-radius: 18px;
@@ -394,7 +394,7 @@ a:hover { color: var(--gold); }
   .spiritual-image-frame {
     float: none;
     margin: 0 auto 1.5rem;
-    width: 80%;
-    max-width: 320px;
+    width: 85%;
+    max-width: 380px;
   }
 }
