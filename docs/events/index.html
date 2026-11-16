@@ -1,0 +1,31 @@
+---
+layout: default
+title: Events
+---
+<section class="blog-home">
+  <p class="kicker">Section</p>
+  <h1>Events</h1>
+  <p>Upcoming and past events from the Pyramid Spiritual Societies Movement.</p>
+
+  {% assign items = site.events | sort: "date" | reverse %}
+  {% if items.size == 0 %}
+  <p class="empty">Events will appear here.</p>
+  {% else %}
+  <ol class="post-list">
+    {% for item in items %}
+    <li>
+      <article>
+        {% if item.date %}
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %B %Y" }}</time>
+        {% endif %}
+        <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+        {% assign lead = item.excerpt | strip_html | strip | truncate: 220 %}
+        {% if lead != "" %}
+        <p>{{ lead }}</p>
+        {% endif %}
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+</section>
