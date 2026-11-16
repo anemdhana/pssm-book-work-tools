@@ -1,6 +1,6 @@
 title: Pyramid Spiritual Societies Movement
 tagline: Be a light unto yourself
-description: Transformation Journeys
+description: Transformation Journeys, Knowledge Sharing & Events
 lang: en
 
 # Project site: https://<owner>.github.io/pssm-book-work-tools/
@@ -17,6 +17,14 @@ collections:
     output: true
     sort_by: date
     permalink: /transformation-journeys/:name/
+  knowledge:
+    output: true
+    sort_by: date
+    permalink: /knowledge-sharing/:name/
+  events:
+    output: true
+    sort_by: date
+    permalink: /events/:name/
 
 defaults:
   - scope:
@@ -24,6 +32,16 @@ defaults:
       type: journeys
     values:
       layout: journey
+  - scope:
+      path: ""
+      type: knowledge
+    values:
+      layout: knowledge
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
 
 exclude:
   - README.md
