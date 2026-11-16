@@ -12,26 +12,32 @@
   <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/pssm-logo.png' | relative_url }}" alt="" width="64" height="64">
-      <span class="brand-text">
-        <strong>Pyramid Spiritual Societies Movement</strong>
-        <em>{{ site.tagline }}</em>
-      </span>
-    </a>
-    <nav class="site-nav" aria-label="Sections">
-      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Transformation Journeys</a>
-    </nav>
-  </header>
+  <div class="site-wrapper">
+    <aside class="site-sidebar" aria-label="Main navigation">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/pssm-logo.png' | relative_url }}" alt="" width="56" height="56">
+        <span class="brand-text">
+          <strong>Pyramid Spiritual Societies Movement</strong>
+          <em>{{ site.tagline }}</em>
+        </span>
+      </a>
+      <nav class="side-nav" aria-label="Sections">
+        <a href="{{ '/events/' | relative_url }}" {% if page.url contains '/events' %}aria-current="page"{% endif %}>Events</a>
+        <a href="{{ '/knowledge-sharing/' | relative_url }}" {% if page.url contains '/knowledge-sharing' %}aria-current="page"{% endif %}>Knowledge Sharing</a>
+        <a href="{{ '/transformation-journeys/' | relative_url }}" {% if page.url contains '/transformation-journeys' or page.url == '/' %}aria-current="page"{% endif %}>Transformation Journeys</a>
+      </nav>
+    </aside>
 
-  <main class="site-main">
-    {{ content }}
-  </main>
+    <div class="site-content">
+      <main class="site-main">
+        {{ content }}
+      </main>
 
-  <footer class="site-footer">
-    <img src="{{ '/assets/pssm-logo.png' | relative_url }}" alt="" width="40" height="40">
-    <p>{{ site.tagline }}</p>
-  </footer>
+      <footer class="site-footer">
+        <img src="{{ '/assets/pssm-logo.png' | relative_url }}" alt="" width="36" height="36">
+        <p>{{ site.tagline }}</p>
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
