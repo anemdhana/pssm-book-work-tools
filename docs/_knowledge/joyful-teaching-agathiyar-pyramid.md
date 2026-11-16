@@ -15,7 +15,7 @@ excerpt: Brahmarshi Patriji’s simple yet profound message on eyes, breath, and
   <p class="image-caption">Brahmarshi Patriji speaking with joy and friendliness at the Agathiyar Pyramid Dhyana Ashram.</p>
 </div>
 
-<div class="lang-content" data-lang="en">
+<div class="lang-content" data-lang="en" style="display:none;">
 
 <p><strong>Brahmarshi Patriji’s Simple Yet Profound Message on Eyes, Breath, and Meditation</strong></p>
 
@@ -76,7 +76,7 @@ excerpt: Brahmarshi Patriji’s simple yet profound message on eyes, breath, and
 
 </div>
 
-<div class="lang-content" data-lang="ta" style="display:none;">
+<div class="lang-content" data-lang="ta">
 
 <p><strong>அகத்தியர் பிரமிட் தியான ஆஶ்ரமத்தில் பிரம்மர்ஷி பத்ரீஜியின் எளிதான, ஆழமான சொன்னை</strong></p>
 
@@ -151,7 +151,7 @@ function setLang(lang) {
   localStorage.setItem('preferredLang', lang);
 }
 document.addEventListener('DOMContentLoaded', () => {
-  const saved = localStorage.getItem('preferredLang') || 'en';
+  const saved = localStorage.getItem('preferredLang') || 'ta';
   setLang(saved);
 });
 </script>
