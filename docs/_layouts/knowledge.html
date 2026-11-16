@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post"{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
+  <p class="kicker"><a href="{{ '/knowledge-sharing/' | relative_url }}">Knowledge Sharing</a></p>
+  <h1>{{ page.title }}</h1>
+  {% if page.author or page.date %}
+  <p class="post-meta">
+    {% if page.author %}
+    <span class="byline">{{ page.author }}{% if page.location %} · {{ page.location }}{% endif %}</span>
+    {% endif %}
+    {% if page.date %}
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>
+    {% endif %}
+  </p>
+  {% endif %}
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>
