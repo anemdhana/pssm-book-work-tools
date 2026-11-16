@@ -1,0 +1,34 @@
+---
+layout: default
+title: Knowledge Sharing
+---
+<section class="blog-home">
+  <p class="kicker">Section</p>
+  <h1>Knowledge Sharing</h1>
+  <p>Teachings, reflections, and articles from the Pyramid Spiritual Societies Movement.</p>
+
+  {% assign items = site.knowledge | sort: "date" | reverse %}
+  {% if items.size == 0 %}
+  <p class="empty">Articles will appear here.</p>
+  {% else %}
+  <ol class="post-list">
+    {% for item in items %}
+    <li>
+      <article{% if item.lang %} lang="{{ item.lang }}"{% endif %}>
+        {% if item.date %}
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %B %Y" }}</time>
+        {% endif %}
+        <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+        {% if item.author %}
+        <p class="byline">{{ item.author }}{% if item.location %} · {{ item.location }}{% endif %}</p>
+        {% endif %}
+        {% assign lead = item.excerpt | strip_html | strip | truncate: 220 %}
+        {% if lead != "" %}
+        <p>{{ lead }}</p>
+        {% endif %}
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+</section>
