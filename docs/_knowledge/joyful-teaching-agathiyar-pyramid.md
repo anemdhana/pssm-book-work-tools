@@ -5,6 +5,11 @@ author: From a talk by Brahmarshi Patriji
 excerpt: Brahmarshi Patriji’s simple yet profound message on eyes, breath, and meditation at the Agathiyar Pyramid Dhyana Ashram.
 ---
 
+<div class="spiritual-image-frame">
+  <img src="{{ '/assets/images/patriji-agathiyar-talk.jpg' | relative_url }}" alt="Brahmarshi Patriji sharing teachings with warmth at Agathiyar Pyramid Dhyana Ashram" class="medium-float-right">
+  <p class="image-caption">Brahmarshi Patriji speaking with joy and friendliness at the Agathiyar Pyramid Dhyana Ashram.</p>
+</div>
+
 **Brahmarshi Patriji’s Simple Yet Profound Message on Eyes, Breath, and Meditation**
 
 ### A Warm Welcome Among Friends
