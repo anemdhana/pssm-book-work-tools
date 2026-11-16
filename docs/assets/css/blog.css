@@ -217,19 +217,27 @@ a:hover { color: var(--gold); }
 .prose ul,
 .prose ol,
 .prose blockquote,
-.prose pre {
+.prose pre,
+.lang-content p,
+.lang-content ul,
+.lang-content ol,
+.lang-content blockquote {
   margin: 0 0 1.1rem;
 }
 
 .prose h2,
-.prose h3 {
+.prose h3,
+.lang-content h2,
+.lang-content h3 {
   margin: 1.8rem 0 0.55rem;
   line-height: 1.25;
   color: var(--ink);
 }
 
-.prose h2 { font-size: 1.45rem; }
-.prose h3 { font-size: 1.2rem; }
+.prose h2,
+.lang-content h2 { font-size: 1.45rem; }
+.prose h3,
+.lang-content h3 { font-size: 1.2rem; }
 
 .wish {
   margin: 0 0 2.25rem;
@@ -278,11 +286,15 @@ a:hover { color: var(--gold); }
 }
 
 .prose ul,
-.prose ol { padding-left: 1.25rem; }
+.prose ol,
+.lang-content ul,
+.lang-content ol { padding-left: 1.25rem; }
 
-.prose li + li { margin-top: 0.3rem; }
+.prose li + li,
+.lang-content li + li { margin-top: 0.3rem; }
 
-.prose blockquote {
+.prose blockquote,
+.lang-content blockquote {
   margin-left: 0;
   padding: 0.15rem 0 0.15rem 1rem;
   border-left: 3px solid var(--gold);
@@ -290,20 +302,58 @@ a:hover { color: var(--gold); }
   font-style: italic;
 }
 
-.prose img {
+.prose img,
+.lang-content img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-.prose a { text-underline-offset: 0.15em; }
+.prose a,
+.lang-content a { text-underline-offset: 0.15em; }
 
-.prose code {
+.prose code,
+.lang-content code {
   font-family: Consolas, "Courier New", monospace;
   font-size: 0.88em;
   background: #f3ecdf;
   padding: 0.1em 0.3em;
   border-radius: 4px;
+}
+
+/* Language switcher */
+.lang-switcher {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.lang-btn {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.lang-btn:hover {
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.lang-btn[style*="font-weight: 700"],
+.lang-btn.active {
+  font-weight: 700;
+  border-color: var(--gold);
+  color: var(--ink);
+  background: #fffaf0;
 }
 
 /* Spiritual framed image — slightly larger than medium */
@@ -429,5 +479,9 @@ a:hover { color: var(--gold); }
   .spiritual-video-frame {
     max-width: 100%;
     margin: 2rem auto 1rem;
+  }
+
+  .lang-switcher {
+    justify-content: center;
   }
 }
