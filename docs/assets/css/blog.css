@@ -346,6 +346,34 @@ a:hover { color: var(--gold); }
   line-height: 1.4;
 }
 
+/* Spiritual video frame for Gallery */
+.spiritual-video-frame {
+  margin: 2.5rem auto 1.5rem;
+  max-width: 640px;
+  background: linear-gradient(145deg, #fffaf0, #f7f4ee);
+  border: 3px solid var(--gold);
+  border-radius: 18px;
+  padding: 10px;
+  box-shadow: 0 10px 30px rgba(184, 134, 11, 0.16), 0 2px 8px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.spiritual-video-frame::before {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border: 1px solid rgba(184, 134, 11, 0.28);
+  border-radius: 14px;
+  pointer-events: none;
+}
+
+.spiritual-video-frame video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  background: #000;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -396,5 +424,10 @@ a:hover { color: var(--gold); }
     margin: 0 auto 1.5rem;
     width: 85%;
     max-width: 380px;
+  }
+
+  .spiritual-video-frame {
+    max-width: 100%;
+    margin: 2rem auto 1rem;
   }
 }
